@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    border: 5px solid var(--goldenrod);
+    height: 100dvh;
+    background-color: rgb(112, 107, 107);
+}
+
+:root{
+    --saffron: #f6d12c;
+    --saffron-mango: #f9c54e;
+    --goldenrod: #f9d66c;
+    --sandy-brown: #f4a462;
+    --jungle-green: #2a9d90;
+}
+
+
+header{
+    height: 10vh;
+    background-color: var(--jungle-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > div{
+    font-size: 30px;
+    color: var(--sandy-brown);
+}
+
+/*section*/
+
+.tier-list{
+    height: 90px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    flex-direction: row;
+}
+
+.heading{
+    height: 100%;
+    width: 150px;
+    border-right: 2px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tier-list-item-container{
+    height: 80px;
+    width: 80px;
+}
+
+div > img{
+    height: 100%;
+    width: 100%;
+}
+
+label{
+    font-size: 15px;
+    color: white;
+    padding: 5px;
+}
+
+.input{
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(78, 64, 64);
+    margin: 5px;
+    border: none;
+}
+
+.submit-btn{
+    padding: 3px 5px;
+    border-radius: 20px;
+    background-color: var(--saffron);
+    border: none;
+}
+
+#non-tier-list-section{
+    display: flex;
+    gap: 5px;
+}
+
+.tier-list-item{
+    min-width: 50%;
+    display: flex;
+    padding: 5px;
+    gap: 5px;
+}
